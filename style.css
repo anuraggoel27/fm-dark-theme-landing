@@ -1,0 +1,372 @@
+body
+{
+    background-color: hsl(218, 28%, 13%);
+    background-repeat:no-repeat;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.header
+{
+    display:relative;
+    background-color: hsl(217, 28%, 15%);
+}
+.logo
+{
+    display: inline-block;
+    margin:70px;
+}
+.navbar
+{
+    display: inline-block;
+    position: relative;
+    left:45%;
+}
+.nav-item a{
+    margin-left:15px;
+}
+.nav-item a:hover
+{
+    font-weight: 700;
+    text-decoration: none;
+    color:white;
+}
+.illustration-1
+{
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+.illustration-1 img
+{
+    width:40%;
+    height:60%;
+    margin:0 auto 30px;
+    display: inline-block;
+}
+.ill-text
+{
+    display: inline-block;
+    width:40%;
+   
+}
+.ill-text h2
+{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size:40px;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+.ill-text p
+{
+    line-height:1.5;
+    width:80%;
+    margin:0 auto 30px;
+}
+.button-up
+{
+    width:15%;
+    background-image:linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color:white;
+    font-weight: 700;
+    height:50px;
+    border-radius:25px;
+    margin-bottom: 100px;
+}
+.button .btn:hover
+{
+   color:hsl(218, 28%, 13%);
+}
+.feature
+{
+    width:400px;
+    height:300px;
+    display:inline-block;
+    margin:0px auto;
+    text-align: center;
+    padding:20px;
+    margin-bottom:100px;
+}
+
+.feature.left
+{
+    position: relative;
+    left:5%;
+   
+}
+.feature.right
+{
+    position:relative;
+    left:22%;
+}
+.feature img
+{
+    margin-bottom:35px; 
+}
+.feature h5
+{
+    font-weight:700;
+    margin-bottom:10px;
+    font-family: 'Raleway', sans-serif;
+}
+.illustration-2
+{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.ill2-photo
+{
+    display: inline-block;
+    margin-right:50px;
+    padding-left:10%;
+}
+
+
+.ill2-text
+{
+    display: inline-block;
+    width:37%;
+    position: relative;
+    top:100px;
+}
+.ill2-text h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:40px;
+}
+.ill2-text a
+{
+    color:white
+}
+.ill2-text img
+{
+    color: white;
+    margin-left:10px;
+    text-decoration: solid;
+}
+.cards
+{
+    text-align: center;
+    position: relative;
+}
+.back-quotes
+{
+    position:absolute;
+    left:180px;
+}
+.card
+{
+    width:350px;
+    height:250px;
+    display: inline-block;
+    margin:30px 20px;
+    border-radius:10px;
+    background-color: hsl(219, 30%, 18%);
+    padding:40px 20px 20px;
+    text-align: left;
+    font-size: 15px;
+}
+.card h5
+{
+    font-size:12px;
+    font-weight: 700;
+    margin-bottom:7px;
+}
+.card h6
+{
+    font-size:10px;
+    margin:0;
+}
+.card p
+{
+    margin-bottom: 40px;
+}
+.profile
+{
+    position: relative;
+}
+.card .name
+{
+    display:inline-block;
+    
+}
+.card img
+{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    margin-right:10px;
+    position: relative;
+    bottom:10px;
+}
+
+
+.email-address
+{
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    width:60%;
+    position: relative;
+    left:20%;
+    top:144.5px;
+    padding:50px 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.email-address h1
+{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom:20px;
+    font-family: 'Raleway', sans-serif;
+}
+.email-address p
+{
+    font-size: 13px;
+    padding:0 100px;
+    margin-bottom: 40px;
+}
+.email-address input
+{
+    width:60%;
+    height:50px;
+    border-radius: 25px;
+    margin-right: 20px;
+    padding:25px;
+}
+small
+{
+    position: relative;
+    right:200px;
+    visibility: hidden;
+    
+}
+#email.error
+{
+    border: 2px solid hsl(0, 100%, 63%);
+}
+#email.success
+{
+    border: 3px solid hsl(108, 77%, 36%);
+}
+#error-message
+{
+    color:hsl(0, 100%, 63%);
+}
+.email-address input:focus
+{
+    outline:none;
+}
+.email-address button
+{
+    width:20%;
+    height:50px;
+    border-radius: 25px;
+    padding:10px;
+    font-size: 13px;
+    font-weight: 700;
+    background-image:linear-gradient(to right,hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color:white;
+    outline: none;
+}
+.email-address button:hover
+{
+    color:hsl(218, 28%, 13%);
+}
+.email-address button:focus
+{
+    outline:none;
+}
+.footer
+{
+    background-color: hsl(216, 53%, 9%);
+    padding:10% 4% 0.5%;
+}
+.main-row
+{
+    margin-bottom:50px;
+}
+.address
+{
+    position: relative;
+    display:inline-block;
+    width:450px;
+}
+.address img
+{
+   
+    margin-right:20px ;
+
+}
+.address p
+{
+    display:inline-block;
+    width:380px;
+    height:150px;
+}
+.contact
+{
+   
+    width:250px;
+    height:150px;
+    margin-bottom: 16px;
+}
+.contact img
+{
+    margin-right:20px;
+   
+}
+.contacts
+{
+    margin-bottom:20px;
+}
+.link1
+{
+    
+    width:150px;
+    height:150px;
+}
+.link
+{
+    margin-bottom:20px;
+    
+}
+.link a
+{
+    color:white;
+}
+.link a:hover
+{
+    font-weight: 700;
+    text-decoration: none;
+}
+.link2
+{
+    
+    width:150px;
+    height:150px;
+}
+.footer-logo
+{
+    margin-bottom:50px;
+}
+i
+{
+    margin:0 10px;
+    padding:10px;
+    border:1px solid  hsl(0, 0%, 100%);
+    border-radius: 19px;
+}
+footer
+{
+    text-align: center;
+    display: inline-block;
+    margin-top:100px;
+    margin-left:40%;
+}
